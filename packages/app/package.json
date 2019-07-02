@@ -1,0 +1,27 @@
+{
+  "name": "koa-app",
+  "version": "1.0.0",
+  "description": "A Blog admin backend with Koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --inspect ./ --exec ./node_modules/@babel/node/bin/babel-node.js"
+  },
+  "author": "coma",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.4",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0",
+    "nodemon": "^1.18.3"
+  }
+}
