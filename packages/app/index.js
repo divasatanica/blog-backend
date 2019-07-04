@@ -21,13 +21,13 @@ const PORT = baseConfig.PORT
 const DB_URL = baseConfig.DB_URL
 const app = new Koa()
 
-mongoose.connect(DB_URL, {
-  useNewUrlParser: true
-}).then(() => {
-  console.log('MongoDB access created')
-}).catch(e => {
-  console.log(e)
-})
+// mongoose.connect(DB_URL, {
+//   useNewUrlParser: true
+// }).then(() => {
+//   console.log('MongoDB access created')
+// }).catch(e => {
+//   console.log(e)
+// })
 
 global.respFail = respFail
 global.respSuccess = respSuccess
