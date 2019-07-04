@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon --inspect ./ --exec ./node_modules/@babel/node/bin/babel-node.js"
+    "start": "nodemon --inspect ./ --exec ./node_modules/.bin/babel-node"
   },
   "author": "coma",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "jest": "^24.8.0",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "yarn": "^1.16.0"
   }
 }
