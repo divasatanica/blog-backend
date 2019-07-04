@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon --inspect ./ --exec ./node_modules/.bin/babel-node"
+    "dev": "nodemon --inspect ./ --exec .node_modules/.bin/babel-node",
+    "start": "nodemon ./ --exec ./node_modules/.bin/babel-node"
   },
   "author": "coma",
   "license": "ISC",
